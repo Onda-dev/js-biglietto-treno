@@ -11,5 +11,8 @@ if (etaPasseggero < 18) {
 } else {
     prezzoBiglietto = (kmTragitto * 0.21).toFixed(2);
 }
-
 console.log(prezzoBiglietto)
+// OUTPUT
+const title = document.getElementById("title").innerHTML;
+
+document.getElementById("title").innerHTML = `${title} ${prezzoBiglietto}€`
